@@ -2,7 +2,7 @@ GAMES OR NO GAMES GETTER version 0.0
 
 # Description
 
-	Python script that reads videos of your libraries and adds them to your Backlogged account
+	Python script I made that reads videos of your libraries and adds them to your Backlogged account
 
 # Dependencies
 	- shareX or other screen recording software (You'll need to reduce the screen recorded as much as possible, such only the text appears)
