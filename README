@@ -1,0 +1,24 @@
+GAMES OR NO GAMES GETTER version 0.0
+
+# Description
+
+	Python script that reads videos of your libraries and adds them to your Backlogged account
+
+# Dependencies
+	- shareX or other screen recording software (You'll need to reduce the screen recorded as much as possible, such only the text appears)
+	- tesseract (for ocr)
+	- python3
+
+# Usage
+	1. setup your venv and install requirements (inside main folder):
+
+	   $ python3 -m venv venv ; source venv/bin/activate ; pip install -r requirements.txt
+
+	2. Use shareX to record your library
+	3. Place the video in the main folder
+	4. Add in the <remove.csv> the text you want to remove (Trash from the recording like "Install"
+	5. Add your Backlogged credentials to <credentials.json>
+	6. run gnogg:
+
+	   $ python3 gnogg.py <your_video>
+	
